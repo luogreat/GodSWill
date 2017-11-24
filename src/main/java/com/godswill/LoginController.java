@@ -1,4 +1,4 @@
-package com.godswill.controller;
+package com.godswill;
 
 
 import org.springframework.stereotype.Controller;
@@ -9,7 +9,7 @@ public class LoginController{
 
     @RequestMapping("/login")
     public String login_page(){
-        return "login";
+        return "bksys/login";
     }
 
 
