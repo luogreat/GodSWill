@@ -1,4 +1,4 @@
-package com.godswill.bksys;
+package com.godswill.admin;
 
 
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ public class First {
 
     @RequestMapping("/index")
     public String index() {
-        return "bksys/index";
+        return "admin/index";
     }
 
 }
